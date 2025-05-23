@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/api/user/register", form);
+      await axios.post("https://fathhom-marine-consultations-assignment.onrender.com/api/user/register", form);
       alert("Signup successful. Please login.");
       navigate("/");
     } catch (err) {

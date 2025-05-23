@@ -16,7 +16,7 @@ const Home = () => {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        `http://localhost:3000/api/marine?name=${query}`,
+        `https://fathhom-marine-consultations-assignment.onrender.com/api/marine?name=${query}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }

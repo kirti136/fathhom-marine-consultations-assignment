@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/user/login",
+        "https://fathhom-marine-consultations-assignment.onrender.com/api/user/login",
         form
       );
 
